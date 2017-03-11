@@ -11,13 +11,13 @@ Install on Cloud9:
   Create new workspace
     Workspace name:  bloc-jams  
     Choose HTML5 template
-    Clone from Git URL: https://github.com/databaseman/bloc-jams.git
+    Clone from Git URL: https://github.com/<c9username>/bloc-jams.git
 
 Run on Cloud9:
   Open up index.html
   Click on Run on the Cloud9 toolbar to run index.html
   Wait for web server to start
-  Go to URL: https://bloc-jams-databasedude.c9users.io/index.html
+  Go to URL: https://bloc-jams-<c9username>.c9users.io/index.html
 
 Install on Heroku (all works are done from Cloud9):
   Heroku doesn't support static page, so we need to fool it by adding a php file
