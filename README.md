@@ -31,5 +31,7 @@ Install on Heroku (all works are done from Cloud9):
   Go to web site returned from push command.  For example
      https://secure-springs-93236.herokuapp.com/index.html
 
-  	
+  You can rename the url by doing the following:
+    $ heroku apps:rename minh-bloc-jams
+    Go to new URL: https://minh-bloc-jams.herokuapp.com  	
 
