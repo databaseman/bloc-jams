@@ -4,7 +4,7 @@
 
 **Description**:  A digital music player like Spotify that we'll use to learn frontend web development. 
 
-**Technology**:  HTML, CSS, JavaScript, JQuery.
+**Technology**:  HTML, CSS, JavaScript, JQuery, and Buzz for playing music
 
 **Install on Cloud9**:
   1. Go to your Cloud9 dashboard  
