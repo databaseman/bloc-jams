@@ -40,6 +40,8 @@
   Go to web site returned from push command.  For example
      https://secure-springs-93236.herokuapp.com/index.html
 
+**It might takes a couple of seconds before it plays on Heroku because of some site specific delays.**
+
   You can rename the url by doing the following:
   
     $ heroku apps:rename minh-bloc-jams
