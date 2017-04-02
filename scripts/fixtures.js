@@ -1,3 +1,18 @@
+var saintCecilia = {
+    title: 'Saint Cecilia EP',
+    artist: 'Foo Fighters',
+    label: 'RCA',
+    year: '2015',
+    albumArtUrl: 'assets/images/album_covers/SaintCecilia.png',
+    songs: [
+         { title: ' Saint Cecilia', duration: 204.6, audioUrl: 'assets/music/saintCecilia/SaintCecilia' },
+         { title: 'Sean', duration: 126.6, audioUrl: 'assets/music/saintCecilia/Sean' },
+         { title: 'Savior Breath', duration: 186.6, audioUrl: 'assets/music/saintCecilia/SaviorBreath' },
+         { title: 'Iron Rooster', duration: 246.6, audioUrl: 'assets/music/saintCecilia/IronRooster' },
+         { title: 'The Neverending Sigh', duration: 267, audioUrl: 'assets/music/saintCecilia/TheNeverendingSigh' }
+     ]
+};
+
 var bluesMiscArtists = {
     title: 'Blues Album',
     artist: 'Misc Artists',
@@ -13,22 +28,6 @@ var bluesMiscArtists = {
      ]
 };
 
-var saintCecilia = {
-    title: 'Saint Cecilia EP',
-    artist: 'Foo Fighters',
-    label: 'RCA',
-    year: '2015',
-    albumArtUrl: 'assets/images/album_covers/SaintCecilia.png',
-    songs: [
-         { title: ' Saint Cecilia', duration: 204.6, audioUrl: 'assets/music/bluesMiscArtists/SaintCecilia' },
-         { title: 'Sean', duration: 126.6, audioUrl: 'assets/music/bluesMiscArtists/Sean' },
-         { title: 'Savior Breath', duration: 186.6, audioUrl: 'assets/music/bluesMiscArtists/SaviorBreath' },
-         { title: 'Iron Rooster', duration: 246.6, audioUrl: 'assets/music/bluesMiscArtists/IronRooster' },
-         { title: 'The Neverending Sigh', duration: 267, audioUrl: 'assets/music/bluesMiscArtists/TheNeverendingSigh' }
-     ]
-};
-
-
 var albumPicasso = {
     title: 'The Colors',
     artist: 'Pablo Picasso',
@@ -36,12 +35,11 @@ var albumPicasso = {
     year: '1881',
     albumArtUrl: 'assets/images/album_covers/01.png',
     songs: [
-         { title: 'Blue', duration: 161.71, audioUrl: 'assets/music/blue' },
-         { title: 'Green', duration: 103.96, audioUrl: 'assets/music/green' },
+         { title: 'Blue', duration: 161.71, audioUrl: 'assets/music/colors/blue' },
+         { title: 'Green', duration: 103.96, audioUrl: 'assets/music/colors/green' },
          { title: 'Red', duration: 268.45, audioUrl: 'assets/music/red' },
-         { title: 'Pink', duration: 153.14, audioUrl: 'assets/music/pink' },
-         { title: 'Magenta', duration: 374.22, audioUrl: 'assets/music/magenta' }
+         { title: 'Pink', duration: 153.14, audioUrl: 'assets/music/colors/pink' },
+         { title: 'Magenta', duration: 374.22, audioUrl: 'assets/music/colors/magenta' }
      ]
 };
-
 
